@@ -1,0 +1,64 @@
+﻿.fixed-column {
+    white-space: pre;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: sticky;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.fixed-column-2 {
+    width: 80px;
+    height: 45px;
+    position: sticky;
+    left: 80px;
+    background-color: #fff;
+    z-index: 3;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    table-layout: fixed;
+}
+
+th, td {
+    white-space: nowrap;
+    text-align: center;
+    font-size: 12px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    
+}
+
+    .pagination button {
+        margin: 0 5px;
+    }
+
+    .pagination select {
+        margin-left: 10px;
+    }
+
+input[type="date"] {
+    max-width: 50%;
+}
+
+label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    font-size: 14px;
+}
+
+#quotationTable th, #quotationTable td {
+    padding: 5px; /* Hoặc giá trị bạn muốn */
+}

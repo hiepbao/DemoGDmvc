@@ -1,0 +1,87 @@
+﻿.fixed-column {
+    white-space: pre;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: sticky;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.fixed-column-2 {
+    position: sticky;
+    left: 40px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.fixed-column-3 {
+    position: sticky;
+    left: 200px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.fixed-column-4 {
+    position: sticky;
+    left: 300px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    width: 100%;
+    table-layout: auto;
+}
+
+th, td {
+    white-space: nowrap;
+    text-align: center;
+    font-size: 12px;
+    /* width: 10%; */
+}
+/* #quotationTable {
+            table-layout: fixed; 
+            width: 100%; 
+        } */
+
+#quotationTable th, #quotationTable td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 50px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    
+}
+
+    .pagination button {
+        margin: 0 5px;
+    }
+
+    .pagination select {
+        margin-left: 20px;
+    }
+
+label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    font-size: 14px;
+}
+
+#quotationTable th, #quotationTable td {
+    padding: 5px; /* Hoặc giá trị bạn muốn */
+}

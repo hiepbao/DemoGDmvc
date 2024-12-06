@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Báo giá  chi tiết";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/BaoGiaChiTiet.css" />
+</head>
+
+<h2 class="text-center mb-4">Chi tiết báo giá</h2>
+<div class="">
+    <div class="">
+        <div> <label>Khách Hàng: CTY 01</label></div>
+        <div class="">
+            <label class="col"> Ngày áp dụng: 20-08-2024</label>
+        </div>
+        <div class="">
+            <label class="col">Phụ trách: Lê Khác Hòa</label>
+        </div>
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table id="quotationTable" class="table table-bordered table-hover">
+        <thead class="table-light">
+            <tr>
+                <th class="fixed-column">STT</th>
+                <th class="fixed-column-2">Tên hàng</th>
+                <th>Quy cách</th>
+                <th>Đơn vị</th>
+                <th>Đơn giá</th>
+                <th>Đơn giá cũ</th>
+                <th>Ghi chú</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+</div>
+<!-- Phân trang -->
+<div class="row mb-3">
+    <div class="justify-content-between col-6" style="margin-top: 2px;">
+        <div class="d-flex align-items-center">
+            <label class="" for="rowsPerPage">Số dòng:</label>
+            <select id="rowsPerPage" class="form-select" style="width: 50%;" onchange="changeRowsPerPage()">
+                <option value="20">20</option>
+                <option value="50">50</option>
+                <option value="50">100</option>
+            </select>
+        </div>
+    </div>
+    <div id="pagination" class="pagination col-6"></div>
+</div>
+
+<script src="~/js/BaoGiaChiTiet.js"></script>
+

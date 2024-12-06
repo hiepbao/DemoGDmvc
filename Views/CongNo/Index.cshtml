@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Công nợ";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/CongNo.css" />
+</head>
+
+<h2 class="text-center mb-4">Công Nợ</h2>
+<div class="mb-3">
+    <input type="text" id="searchInput" class="form-control" onkeyup="searchFunction()" placeholder="Tìm kiếm theo khách hàng">
+</div>
+
+<div class="table-responsive">
+    <table id="quotationTable" class="table table-bordered table-hover" style="padding: 5px;">
+        <thead class="table-light">
+            <tr>
+                <th class="fixed-column">Khách hàng</th>
+                <th class="fixed-column-2">Nợ hiện tại</th>
+                <th>Hạn CN</th>
+                <th>Nợ quá hạn</th>
+                <th>Ngày đến hạn</th>
+                <th>TT trong kỳ</th>
+                <th>Ngày thanh toán</th>
+                <th>Tổng giao hàng</th>
+                <th>Chưa đối chiếu</th>
+                <th>Phụ trách</th>
+                <th>Công nợ</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Nội dung bảng sẽ được load qua JS -->
+        </tbody>
+    </table>
+</div>
+<!-- Phân trang -->
+<div class="row mb-3">
+    <div class="justify-content-between col-6" style="margin-top: 2px;">
+        <div class="d-flex align-items-center">
+            <label class="" for="rowsPerPage">Số dòng:</label>
+            <select id="rowsPerPage" class="form-select" style="width: 50%;" onchange="changeRowsPerPage()">
+                <option value="20">20</option>
+                <option value="50">50</option>
+                <option value="50">100</option>
+            </select>
+        </div>
+    </div>
+    <div id="pagination" class="pagination col-6"></div>
+</div>
+
+<script src="~/js/CongNo.js"></script>
