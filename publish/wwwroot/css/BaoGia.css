@@ -1,0 +1,28 @@
+﻿#quotationTable {
+    table-layout: fixed;
+    width: 100%;
+}
+
+    #quotationTable th, #quotationTable td {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 50px;
+        text-align: center;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    
+}
+
+    .pagination button {
+        margin: 0 5px;
+    }
+
+    .pagination select {
+        margin-left: 20px;
+    }
