@@ -111,7 +111,7 @@ function searchFunction() {
 }
 
 function redirectToDetailPage(quotationId) {
-    window.location.href = `./Home/ChiTietDon`;
+    window.location.href = `./GiaoHang/ChiTietDon`;
 }
 
 function formatQuantity(quantity) {

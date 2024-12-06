@@ -1,14 +1,14 @@
-using DemoGDMVC.Models;
+﻿using DemoGDMVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace DemoGDMVC.Controllers
 {
-    public class HomeController : Controller
+    public class GiaoHangController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<GiaoHangController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public GiaoHangController(ILogger<GiaoHangController> logger)
         {
             _logger = logger;
         }
@@ -17,6 +17,13 @@ namespace DemoGDMVC.Controllers
         {
             return View();
         }
+
+        public IActionResult ChiTietDon()
+        {
+            return View();
+        }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -42,8 +42,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ05vXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cubi2/OneDrive/Máy tính/lamviec/DemoGDMVC/Views/Home/ChiTietDon.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGlUaWV0RG9uLmNzaHRtbA==
+[C:/Users/cubi2/OneDrive/Máy tính/lamviec/DemoGDMVC/Views/GiaoHang/ChiTietDon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhb0hhbmdcQ2hpVGlldERvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cubi2/OneDrive/Máy tính/lamviec/DemoGDMVC/Views/GiaoHang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhb0hhbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/cubi2/OneDrive/Máy tính/lamviec/DemoGDMVC/Views/Home/Index.cshtml]

@@ -166,7 +166,7 @@ function redirectToDetailPage(quotationId) {
     window.location.href = `./ThongKeTai/ChiTietTai`;
 }
 function redirectToDetailPage2(quotationId) {
-    window.location.href = `./Home/ChiTietDon`;
+    window.location.href = `./GiaoHang/ChiTietDon`;
 }
 
 function formatWeight(weight) {
