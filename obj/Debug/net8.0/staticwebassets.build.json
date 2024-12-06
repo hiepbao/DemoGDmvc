@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HKZbKR7FvQS1ybfSKGkcTNjlvycMAx7HhDtLKroIzFs=",
+  "Hash": "0FYKu/RFUOP4DLb/3CgJPdYetPyrqhGXd9X08jLT2kg=",
   "Source": "DemoGDMVC",
   "BasePath": "_content/DemoGDMVC",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\CongNo.css"
+    },
+    {
+      "Identity": "C:\\Users\\cubi2\\OneDrive\\Máy tính\\lamviec\\DemoGDMVC\\wwwroot\\css\\Home.css",
+      "SourceId": "DemoGDMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cubi2\\OneDrive\\Máy tính\\lamviec\\DemoGDMVC\\wwwroot\\",
+      "BasePath": "_content/DemoGDMVC",
+      "RelativePath": "css/Home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Home.css"
     },
     {
       "Identity": "C:\\Users\\cubi2\\OneDrive\\Máy tính\\lamviec\\DemoGDMVC\\wwwroot\\css\\Login.css",

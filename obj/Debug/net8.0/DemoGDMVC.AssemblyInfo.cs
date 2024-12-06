@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoGDMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f998f02ceb8ec2fd1d8288dec0db330c36859e79")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46ccb2ca0721c4e107779139cb5a91cd37a3a23b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoGDMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoGDMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

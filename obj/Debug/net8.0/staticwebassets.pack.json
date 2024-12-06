@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\css\\CongNo.css"
     },
     {
+      "Id": "C:\\Users\\cubi2\\OneDrive\\Máy tính\\lamviec\\DemoGDMVC\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
       "Id": "C:\\Users\\cubi2\\OneDrive\\Máy tính\\lamviec\\DemoGDMVC\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
